@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--app theme-->
+        <item name="android:actionBarStyle">@style/actionbarstyle</item>
+    </style>
+
+    <style name="actionbarstyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/yellowgreen</item>
+    </style>
+
+    <style name="font">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/yellowgreen</item>
+    </style>
+
+    <style name="chatMessageStyle" parent="font">
+        <item name="android:background">@drawable/chatmessageshape</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="loginlabel" parent="font">
+        <item name="android:textSize">35dp</item>
+    </style>
+
+    <style name="buttonstyle">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/loginbuttonsequence</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
